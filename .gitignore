@@ -1,1 +1,6 @@
-/.class/
+*.class
+*.log
+*.jar
+bin/
+out/
+target/
