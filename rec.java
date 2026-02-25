@@ -21,11 +21,11 @@ public class rec{
     private static int recursion_n_1(int value)
     {
         if(value==1){
-            System.out.println(value);
+            System.out.println(value);      // print the value while recursion , before function call return 
             return 0;
         }
         System.err.println(value);
-        return recursion_n_1(value-1);
+        return recursion_n_1(value-1);  // to go next value 
     }
 
     //print the sum of n number 
@@ -35,7 +35,7 @@ public class rec{
         {
             return 1;
         }
-        return sum_of_n(value-1)+value;
+        return sum_of_n(value-1)+value;  // return value with currect value 
     }
 
     private static int fact(int value)
@@ -44,15 +44,15 @@ public class rec{
         {
             return 1;
         }
-        return value*fact(value-1);
-    }
+        return value*fact(value-1);   //factorial
+    } 
 
     // print the power with recursion 
     private static int power(int value,int power){
         if(power==1){
             return value;
         }
-        return value*power(value,power-1);
+        return value*power(value,power-1);   //power
     }
  // 2 power 3 2x2x2   
     private static int fib(int value)
@@ -61,7 +61,7 @@ public class rec{
         {
             return 1;
         }
-        return fib(value-1)+fib(value-2);
+        return fib(value-1)+fib(value-2);    //fib series
     }
 
 //     2   1
