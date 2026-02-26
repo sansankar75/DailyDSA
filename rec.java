@@ -1,3 +1,6 @@
+/// its a recursion program having five basic in recursion
+
+
 public class rec{
 
     // print number from one to n  
