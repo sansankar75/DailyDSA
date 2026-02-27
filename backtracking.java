@@ -2,6 +2,7 @@
 import java.util.*; 
  
 /// print all the sub arrays in array
+/// i make a detail tracking in the paper 
 public class backtracking  {
 
     public static List<List<Integer>> subsets(int[] arr) {
@@ -55,7 +56,7 @@ public class backtracking  {
    
 
     /// its a permutation 
-    /// its wonderfull man! hooo     balance =========
+    /// its wonderfull man! hooo     balance
     public static List<List<Integer>> permute(int[] arr) {
         List<List<Integer>> result = new ArrayList<>();
         backtrack(0, arr, result);
@@ -88,6 +89,7 @@ public class backtracking  {
     public static void main(String[] args) {
         System.out.println(subsets(new int[]{1, 2, 3}));
         System.out.println(subsequences("san"));
+        System.out.println(permute(new int[]{1,2,3}));
     }
 
 }
