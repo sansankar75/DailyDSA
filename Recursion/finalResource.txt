@@ -1,0 +1,48 @@
+1
+
+Print numbers 1 to N (forward)  ✅
+Print numbers N to 1 (backward) ✅
+Sum of first N numbers ✅
+Factorial of N ✅
+Fibonacci using recursion (slow but concept-building) ✅
+Power of a number (x^n) ✅
+
+2
+
+Print all subsets of an array ✅
+Print all subsequences of a string ✅
+Print all permutations of a string/array
+Count subsets whose sum == target (subset sum)
+
+3
+
+Binary search (recursive)
+Find max/min in array (recursive)
+Reverse an array using recursion
+Check palindrome string (recursive)
+Tower of Hanoi (mandatory)
+Merge Sort recursion tree (dry run)
+Quick Sort recursion (dry run)
+K-th symbol in grammar
+Count ways to climb stairs
+
+4
+
+Inorder, Preorder, Postorder (recursive)
+Height of a binary tree
+Count nodes
+Check if two trees are identical
+Max depth
+Diameter of binary tree
+Lowest Common Ancestor (LCA)
+Balanced tree check
+
+5
+
+N-Queens
+Sudoku solver backtracking
+Rat in a maze
+Word search DFS
+
+
+Total  = 31   Done (8) + Undone(23)

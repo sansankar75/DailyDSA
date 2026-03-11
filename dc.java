@@ -18,7 +18,14 @@ public class dc {
         else{
             return binarySearch(mid+1,last,arr,target);
         }
+
     }
+
+
+
+    //sample recursion i try today 7.3.2026
+    // sum tree
+     
     public static void main(String []args)
     {
         int[] arr={1,2,3,4,5,6,7,8,9,10};

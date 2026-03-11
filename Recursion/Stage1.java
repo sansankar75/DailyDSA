@@ -1,7 +1,8 @@
+package Recursion;
 /// its a recursion program having five basic in recursion
 
 
-public class rec{
+public class Stage1{
 
     // print number from one to n  
     private static int recursion_1_n(int value)

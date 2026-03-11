@@ -1,9 +1,12 @@
+package Recursion;
+// for backage i need to run like this 
+/// javac Recursion/Filename.java (for compile) and (to run) java Recursion.Filename
 
 import java.util.*; 
  
 /// print all the sub arrays in array
 /// i make a detail tracking in the paper 
-public class backtracking  {
+public class backtrackingStage2  {
 
     public static List<List<Integer>> subsets(int[] arr) {
         List<List<Integer>> result = new ArrayList<>();
@@ -55,6 +58,8 @@ public class backtracking  {
     }
    
 
+
+    // ITS ARRAY 
     /// its a permutation 
     /// its wonderfull man! hooo     balance
     public static List<List<Integer>> permute(int[] arr) {
@@ -86,10 +91,80 @@ public class backtracking  {
     }
 
 
+    // ITS STRING
+    static void stringPermute(String str,String result){
+        if(str.length()==0){
+            System.out.println(result);
+            return;
+        }
+
+        for(int i=0;i<str.length();i++)
+        {
+            char currect=str.charAt(i);
+            
+            String remaining= str.substring(0,i)+str.substring(i+1);
+            stringPermute(remaining,result+currect);
+        }
+    }
+/* 
+    permute("san","")
+│
+├── choose 's'
+│   permute("an","s")
+│   │
+│   ├── choose 'a'
+│   │   permute("n","sa")
+│   │   │
+│   │   └── choose 'n'
+│   │       permute("","san")
+│   │       → PRINT san
+│   │
+│   └── choose 'n'
+│       permute("a","sn")
+│       │
+│       └── choose 'a'
+│           permute("","sna")
+│           → PRINT sna
+│
+├── choose 'a'
+│   permute("sn","a")
+│   │
+│   ├── choose 's'
+│   │   permute("n","as")
+│   │   │
+│   │   └── choose 'n'
+│   │       permute("","asn")
+│   │       → PRINT asn
+│   │
+│   └── choose 'n'
+│       permute("s","an")
+│       │
+│       └── choose 's'
+│           permute("","ans")
+│           → PRINT ans
+│
+└── choose 'n'
+    permute("sa","n")
+    │
+    ├── choose 's'
+    │   permute("a","ns")
+    │   │
+    │   └── choose 'a'
+    │       permute("","nsa")
+    │       → PRINT nsa
+    │
+    └── choose 'a'
+        permute("s","na")
+        │
+        └── choose 's'
+            permute("","nas")
+            → PRINT nas   */
+
     public static void main(String[] args) {
-        System.out.println(subsets(new int[]{1, 2, 3}));
-        System.out.println(subsequences("san"));
-        System.out.println(permute(new int[]{1,2,3}));
+        //System.out.println(subsets(new int[]{1, 2, 3}));
+        //System.out.println(subsequences("san"));
+        //System.out.println(permute(new int[]{1,2,3}));
+        stringPermute("sankar", " ");
     }
 
 }
