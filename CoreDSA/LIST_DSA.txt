@@ -1,0 +1,187 @@
+# Phase 1 — Foundations (Non-negotiable)
+
+## 1. Arrays
+
+* Traversal
+* Prefix sum
+* Sliding window
+* Two pointers
+
+## 2. Sorting
+
+* Bubble, Selection (basic understanding only)
+* Merge Sort (**important for divide & conquer**)
+* Quick Sort (conceptual)
+
+## 3. Searching
+
+* Linear Search
+* Binary Search (**critical**)
+
+---
+
+# Phase 2 — Core Problem-Solving Techniques
+
+## 4. Recursion
+
+* Base case, stack behavior
+* Convert loops → recursion
+* Solve small → build up
+
+## 5. Divide & Conquer
+
+* Binary Search (revisit)
+* Merge Sort logic
+* Problem splitting strategy
+
+---
+
+# Phase 3 — Linear Data Structures
+
+## 6. Linked Lists
+
+* Singly, Doubly
+* Reverse, cycle detection
+* Fast/slow pointer
+
+## 7. Stacks
+
+* LIFO concept
+* Applications:
+
+  * Balanced parentheses
+  * Next greater element
+
+## 8. Queues
+
+* FIFO
+* Circular queue
+* Deque (important for sliding window)
+
+---
+
+# Phase 4 — Hashing & Optimization
+
+## 9. Hash Tables
+
+* Frequency counting
+* Lookup optimization
+* Collision concept (basic)
+
+**This is where your performance improves significantly.**
+
+---
+
+# Phase 5 — Trees (High Priority)
+
+## 10. Trees
+
+* Binary Tree
+* Traversals (DFS: inorder, preorder, postorder)
+* BFS (level order)
+* Height, depth
+* Binary Search Tree (BST)
+
+---
+
+# Phase 6 — Heaps
+
+## 11. Heaps / Priority Queue
+
+* Min heap / Max heap
+* Heap operations
+* Use cases:
+
+  * Top K problems
+  * Scheduling
+
+---
+
+# Phase 7 — Graphs (Complex Layer)
+
+## 12. Graphs
+
+* Representation (Adj list/matrix)
+* BFS / DFS
+* Cycle detection
+* Topological sort
+* Shortest path (basic idea)
+
+---
+
+# Phase 8 — Advanced Techniques (Only after above)
+
+## 13. Backtracking
+
+* Subsets
+* Permutations
+* N-Queens
+
+## 14. Greedy Algorithms
+
+* Activity selection
+* Interval problems
+* Local vs global optimum
+
+## 15. Dynamic Programming (LAST)
+
+* Memoization
+* Tabulation
+* Patterns:
+
+  * Knapsack
+  * LIS
+  * DP on strings
+
+---
+
+# Correct Learning Flow (Condensed)
+
+```text
+Arrays
+→ Sorting
+→ Searching
+→ Recursion
+→ Divide & Conquer
+→ Linked List
+→ Stack
+→ Queue
+→ Hashing
+→ Trees
+→ Heaps
+→ Graphs
+→ Backtracking
+→ Greedy
+→ Dynamic Programming
+```
+
+---
+
+# Critical Corrections (What you would have done wrong)
+
+* Starting DP early → failure
+* Doing graphs before trees → confusion
+* Ignoring hashing → slow solutions
+* Skipping recursion → cannot solve advanced problems
+
+---
+
+# Execution Strategy (Strict)
+
+For each topic:
+
+1. Learn concept (1–2 hours max)
+2. Solve 10–20 problems
+3. Move forward (don’t stay stuck)
+
+---
+
+# Final Reality
+
+DSA is not about knowing topics.
+It is about:
+
+* recognizing patterns
+* reducing time complexity
+* applying the right structure fast
+

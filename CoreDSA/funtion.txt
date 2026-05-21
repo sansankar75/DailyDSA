@@ -1,0 +1,51 @@
+JAVA CHEAT SHEET (Core Functions)
+
+Arrays (java.util.Arrays)
+Arrays.sort(arr)
+Arrays.binarySearch(arr, key)
+Arrays.copyOf(arr, newLength)
+Arrays.fill(arr, value)
+Arrays.equals(arr1, arr2)
+
+String
+str.length()
+str.charAt(i)
+str.substring(start, end)
+str.contains(s)
+str.equals(s)
+str.toLowerCase(), toUpperCase()
+str.trim()
+str.split(regex)
+String.join(delimiter, elements)
+
+ArrayList
+add(), get(), set(), remove()
+size(), isEmpty(), contains()
+Collections.sort(list)
+Collections.reverse(list)
+
+HashMap
+put(key, value)
+get(key)
+containsKey(key)
+remove(key)
+keySet(), values(), entrySet()
+
+HashSet
+add(), remove(), contains()
+size(), isEmpty()
+
+Stack
+push(), pop(), peek(), isEmpty()
+
+Queue (LinkedList)
+offer(), poll(), peek()
+
+PriorityQueue
+add(), poll(), peek()
+
+Collections Utility
+Collections.sort(), reverse(), min(), max(), frequency()
+
+Math
+Math.max(), min(), abs(), sqrt(), pow(), random()
